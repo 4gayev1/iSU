@@ -18,12 +18,14 @@ h6 {
     font-family: 'Poppins';
 }
 
+/* NAVBAR */
+
 .navbarMenu {
     margin-left: 48%;
 }
 
 .navbarMenu li a {
-    font-size: 14px !important;
+    font-size: 17px !important;
     font-weight: 400 !important;
     line-height: 18px !important;
     color: #FFFFFF;
@@ -243,18 +245,14 @@ h6 {
 /* Galery */
 .galeryContainer h1 {
     position: absolute;
-    top: 2650px ;
-left: 155px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 60px;
-/* identical to box height, or 75% */
-
-
-color: rgba(24, 24, 24, 0.85);
+    top: 2650px;
+    left: 155px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 60px;
+    color: rgba(24, 24, 24, 0.85);
 }
 
 .galeryItems {
@@ -311,7 +309,7 @@ color: rgba(24, 24, 24, 0.85);
 }
 
 /*FOOTER*/
-.main-footer{
+.main-footer {
     background-color: white;
     position: relative;
     top: -200px;
