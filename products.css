@@ -87,13 +87,17 @@ ul li {
     margin-bottom: 120px;
 }
 
+.filterationContainer{
+    width: 320px;
+}
+
 .filteration {
+    position: fixed;
     width: 320px;
     height: 500px;
     background: #FFFFFF;
     border-radius: 20px;
     display: flex;
-
     justify-content: center;
 }
 
@@ -139,7 +143,13 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .5s all ease;
+    cursor: pointer;
 
+}
+
+.productItem:hover{
+    transform: scale(1.1);
 }
 
 .productItem h4:last-child {
